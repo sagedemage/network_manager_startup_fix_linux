@@ -5,8 +5,10 @@ I have this issue on Fedora. This is a workaround to resolving this issue.
 
 ## The Workaround
 
-For Gnome, go to Settings -> Wi-Fi. Click on the settings gear of the chosen Wi-Fi. 
-Make sure that "Connect automatically" is unchecked. 
+For Gnome, go to Settings -> Wi-Fi. Click on the gear of the chosen Wi-Fi network. 
+Make sure that "Connect automatically" is unchecked.
+
+![Network Options](./images/network_options.png)
 
 Replace the ssid of the SSID of your Wi-Fi in the `wifi_startup.sh` script.
 
