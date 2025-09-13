@@ -21,3 +21,5 @@ Add this line to the file, `~/.bash_profile`
 ```
 echo "~/.local/bin/wifi_startup.sh" >> ~/.bash_profile
 ```
+
+Reboot the PC and your chosen Wi-Fi should connect automatically.
