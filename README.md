@@ -10,6 +10,11 @@ Make sure that "Connect automatically" is unchecked.
 
 ![Network Options](./images/network_options.png)
 
+Get the SSID of your Wi-Fi
+```
+nmcli device wifi list
+```
+
 Change the ssid variable to the SSID of your Wi-Fi in the `wifi_startup.sh` script.
 
 Copy the Wi-Fi startup script to `~/.local/bin`
